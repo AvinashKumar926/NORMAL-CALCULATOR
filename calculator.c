@@ -1,26 +1,26 @@
 #include<stdio.h>
 #include<stdlib.h>
-void display(int c)
+void display(int c)		//FOR DISPLAYING
 {	printf("THE ANSWER IS:%d",c);
 }
-int add(int a,int b)
+int add(int a,int b)		//for addition
 {	int c;
 	c=a+b;
 	return (c);
 }
-int sub(int a,int b)
+int sub(int a,int b)		//FOR SUBTRACTION
 {	int c;
 	c=a-b;
 	return (c);
 }
 
-int multiply(int a,int b)
+int multiply(int a,int b)	//FOR MULTIPLICATION
 {	int c;
 	c=a*b;
 	return (c);
 }
 
-int divide(int a,int b)
+int divide(int a,int b)		//FOR DIVISION
 {	int c;
 	c=a/b;
 	return (c);
@@ -37,7 +37,7 @@ int main()
 		printf("\n\t+\n\t-\n\t*\n\t/");
 		printf("\nENTER YOUR CHOICE:");
 		scanf("%c",&ch);
-		switch(ch)
+		switch(ch)							
 		{	case '+':printf("\nENTER TWO NUBER TO BE CALCULATED:");
 				scanf("%d%d",&a,&b);
 				c=add(a,b);
