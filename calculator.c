@@ -6,24 +6,24 @@ void display(int c)		//FOR DISPLAYING
 int add(int a,int b)		//for addition
 {	int c;
 	c=a+b;
-	return (c);
+	break;
 }
 int sub(int a,int b)		//FOR SUBTRACTION
 {	int c;
 	c=a-b;
-	return (c);
+	break;
 }
 
 int multiply(int a,int b)	//FOR MULTIPLICATION
 {	int c;
 	c=a*b;
-	return (c);
+	break;
 }
 
 int divide(int a,int b)		//FOR DIVISION
 {	int c;
 	c=a/b;
-	return (c);
+	break;
 }
 
 
@@ -58,9 +58,9 @@ int main()
 				c=divide(a,b);
 				display(c);
 				break;
-			default:printf("WRONG CHOICE^!^");	
+			default:printf("The command you has input is invalid or not medtioned in the program and it will be updated in the upcomming future^!^\n");	
 		}
-		printf("\nENTER 1 IF U WANT TO CONTINUE:");
+		printf("ENTER 1 IF U WANT TO CONTINUE:");
 		scanf("%d",&l);
 		system("clear");
 	}while(l==1);	
